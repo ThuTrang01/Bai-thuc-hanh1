@@ -1,0 +1,43 @@
+
+.head{
+    width: 650px;
+    height: 380px;
+    background-color: #ecf0f1 ;
+    margin: 100px auto;
+    border: 100px;
+    text-align: center;
+    
+}
+.Invite{
+    font-family: sans-serif;
+    font-weight: 300px;
+}
+   
+
+p{
+    color: rgb(95, 90, 90);
+}
+.letter i{
+    margin: 15px;            
+    color: rgb(56, 152, 165);
+    border: 2px solid rgb(81, 172, 179);
+    padding: 10px 10px;
+    border-radius: 80%;
+}
+.email input{
+    border: 1px solid white;
+    padding: 10px 65px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.button .request{
+   font-family: sans-serif;
+   display: block;
+   margin: 10px auto ;
+   color: white;
+   background: rgb(81, 172, 179);
+   padding: 14px 15px;
+   border: 0px;
+   border-radius: 5px ;
+ 
+}

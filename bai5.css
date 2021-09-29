@@ -1,0 +1,151 @@
+h1 {
+  font-family: billabong;
+  padding-left: -20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.body {
+  display: block;
+  float: right;
+  text-align: center;
+  padding-right: 300px;
+  margin-top: 5px;
+  position: absolute;
+  bottom: 580px;
+  left: 700px;
+  top: 45px;
+}
+.login {
+  border: 1px solid darkgray;
+  width: 350px;
+  height: 400px;
+  background: white;
+}
+.login input[type="text"] {
+  margin: 5px;
+  padding: 10px 90px;
+  width: 58%;
+  padding-left: 10px;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  background: rgb(248, 246, 246);
+}
+.login input[type="password"] {
+  margin-top: 1px;
+  padding: 10px 90px;
+  width: 58%;
+  padding-left: 10px;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  background: rgb(250, 248, 248);
+}
+.login input[type="button"] {
+  margin-top: 30px;
+  padding: 10px 170px;
+  width: 58%;
+  padding-left: 130px;
+  color: white;
+  background: rgb(59, 183, 240);
+  border: 0px solid white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+p::before {
+  content: url(../img/dt1.png);
+}
+p::after {
+  content: url(../img/dt2.png);
+}
+.backgr i {
+  margin-top: 25px;
+  color: rgb(34, 34, 156);
+}
+.backgr i span {
+  color: rgb(34, 34, 156);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.forgot {
+  margin-top: 20px;
+  font-family: sans-serif;
+  color: rgb(26, 19, 119);
+  border: 0px solid white;
+  padding-left: 53px;
+}
+.quetion {
+  display: block;
+  position: absolute;
+  top: 420px;
+  display: block;
+  border: 1px solid darkgray;
+  width: 350px;
+  height: 50px;
+  font-family: sans-serif;
+}
+.quetion span {
+  position: relative;
+  left: -27px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.sign {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: rgb(130, 179, 236);
+  position: absolute;
+  left: 225px;
+  bottom: 0px;
+  font-weight: bold;
+}
+h2 {
+  padding-top: 10px;
+  font-family: none;
+  font-size: medium;
+  font-weight: 100;
+}
+.apple.android {
+  position: relative;
+  top: 20px;
+}
+.img {
+  position: relative;
+  left: 250px;
+}
+.anh {
+  display: block;
+  width: 245px;
+  height: 430px;
+  background-size: cover;
+  position: absolute;
+  left: 150px;
+  top: 98px;
+  animation-name: image;
+  animation-delay: 0.5s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes image {
+  0% {
+    background: url(../img/cô\ gái.jpg);
+    background-size: contain;
+  }
+  25% {
+    background: url(../img/cây.jpg);
+    background-size: contain;
+  }
+  50% {
+    background: url(../img/mèo.jpg);
+    background-size: contain;
+  }
+  75% {
+    background: url(../img/sen.jpg);
+    background-size: contain;
+  }
+  100% {
+    background: url(../img/tổng\ hợp.jpg);
+    background-size: contain;
+  }
+}
